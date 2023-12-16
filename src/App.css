@@ -1,0 +1,51 @@
+:root {
+  --error: #e2091d;
+  --success: #44f67a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.app {
+  margin-top: 10em;
+}
+
+.singup-form {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: grid;
+}
+
+.input-container input {
+  border-radius: 5px;
+  padding: 0.3em;
+}
+
+.input-container label {
+  font-weight: bold;
+}
+.form-submit {
+  padding: 0.5em 1em;
+  font-weight: bold;
+  background: #006abb;
+  color: #fff;
+  border-radius: 5px;
+  width: 100px;
+  display: block;
+}
+.submit-form-container {
+  margin: 1em auto;
+}
+
+.error-msg {
+  color: var(--error);
+}
